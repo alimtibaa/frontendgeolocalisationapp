@@ -1,0 +1,85 @@
+<div id="back">
+	<div class="limiter" >
+		<div class="container-login100" >
+			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+				<form class="login100-form validate-form flex-sb flex-w" [formGroup]="addForm" (ngSubmit)="onSubmit()">
+					<span class="login100-form-title p-b-53">
+						Sign Up
+					</span>
+
+          <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Name
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate = "Name is required">
+            <input class="input100" type="text" placeholder="name*" formControlName="name">
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="p-t-31 p-b-9">
+						<span class="txt1">
+							LastName
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "LastName is required">
+						<input class="input100" type="text" placeholder="Lastname*" formControlName="lastname" >
+						<span class="focus-input100"></span>
+					</div>
+
+          <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              E-Mail
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate = "Email is required">
+            <input class="input100" type="text" placeholder="email*" formControlName="email">
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Phone Number
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate = "phnum is required">
+            <input class="input100" type="text" placeholder="Phone num*" formControlName="num" >
+            <span class="focus-input100"></span>
+          </div>
+
+					<div class="p-t-31 p-b-9">
+						<span class="txt1">
+							Username
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Username is required">
+						<input class="input100" type="text"placeholder="Username*" formControlName="username" >
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="p-t-13 p-b-9">
+						<span class="txt1">
+							Password
+						</span>
+
+
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" placeholder="Password*" formControlName="password" >
+						<span class="focus-input100"></span>
+					</div>
+
+					<div  type="submit" class="container-login100-form-btn m-t-17"  >
+						<button class="login100-form-btn">
+							Sign Up
+						</button>
+					</div>
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="dropDownSelect1"></div>
+</div>
